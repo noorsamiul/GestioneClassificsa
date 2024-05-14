@@ -13,19 +13,43 @@ public class GestioneClassifiche {
         }
     }
 
-    public int aggiungiPerona (aggiungiPerona p, int pos) {
-        if (pos>0 && ){
+    public int aggiungiPerona (Persone p, int pos) {
+        if (pos>0 && p<numero_massomo_persone && classifica[] == null ){
 
         }
     }
 
     public int cercaPersona(String nominativo){
-        int posi = 0;
-        if ()
-        return -1;
+        int p=-1;
+        int i=0;
+        while(p==-1 && i<numero_massomo_persone){
+            
+        }
+            
+        
+        return p;
 
     }
 
+    public int cancellaPerona (){
+
+    }
+
+    public String toString(){
+
+    }
+
+    public int Media(){
+
+    }
+
+    public void spostadx(int inizio){ //→ per inserire
+
+    } 
+    
+    public void spostasx(int inizio){ //→ per eliminare
+
+    } 
 
 
 
