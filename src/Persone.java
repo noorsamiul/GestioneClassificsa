@@ -17,20 +17,23 @@ public class Persone {
     public String getNominatini(){
         return nominativi;
     }
-    public void setNominativi(){
+    public void setNominativi(String nominativi){
         this.nominativi=nominativi;
     }
     public int getPunteggi(){
         return punteggi;
     }
-    public void setPunteggi(){
+    public void setPunteggi(int punteggi){
         this.punteggi=punteggi;
     }
 
     public String toString(){
         String s="";
         s= "Nominatino: " + nominativi + "Punteggi: " + punteggi;
+        return s;
     }
+
+    
 
 
 }
